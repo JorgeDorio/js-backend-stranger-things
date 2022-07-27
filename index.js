@@ -30,8 +30,6 @@ app.get('/', (req, res) => {
   res.status(200).json(characters);
 });
 
-// Alteração pra adicionar ao git
-
 app.listen(PORT, () => {
   console.log(`Escutando na porta ${PORT}`);
 });
